@@ -3,6 +3,8 @@ var express = require('express')
     //, uer = require('./routes/user')
     , http = require('http')
     , path = require('path');
+
+    
 var bodyParser = require('body-parser');
 var app = express();
 app.use('/views', express.static(path.join(__dirname, 'views')));
